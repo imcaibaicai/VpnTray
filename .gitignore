@@ -1,0 +1,19 @@
+# 构建产物
+out/
+bin/
+*.exe
+*.pdb
+*.rsp
+
+# 运行期产物（含本机路径与机器名，绝不入仓）
+data/
+trace.log
+selftest.log
+layouttest.log
+layout-*.png
+*.log
+
+# 编辑器
+.vs/
+.vscode/
+*.user
