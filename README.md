@@ -58,7 +58,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File fetch-kernel.ps1
 
 ## ⚠️ 和 FlClash 共存（第一次必须处理）
 
-你的系统代理平时由 FlClash 指向 `127.0.0.1:7890`。本程序要「一键」就得插在它前面：
+如果 FlClash 指向 `127.0.0.1:7890`。本程序要「一键」就得插在它前面：
 
 ```
 应用 → 1080（本程序）→ 校园流量走 VPN；其余 → 7890（FlClash，规则照旧）
